@@ -1,0 +1,11 @@
+:root { color-scheme: light; color: #201b2c; background: #f6f1e8; font-family: system-ui, sans-serif; }
+body { margin: 0; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 24px 64px; }
+nav { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 40px; }
+h1 { font-size: clamp(2rem, 7vw, 3rem); line-height: 1.15; letter-spacing: -.035em; }
+h2 { margin-top: 32px; font-size: 1.25rem; }
+p, li { font-size: 1.05rem; line-height: 1.65; }
+a { color: inherit; text-underline-offset: .2em; }
+a:focus-visible { outline: 3px solid currentColor; outline-offset: 5px; }
+.date { color: #5f586b; font-size: .95rem; }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #d9d0c2; }
